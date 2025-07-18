@@ -30,9 +30,8 @@
 
 /* Brand-Specific Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Temp mail */
+/* Temp Mail */
 .button-temp-mail {
     --button-text: #ffffff;
-    --button-background: #151d32;
-    --button-border: 1px solid #FFFFFF;
+    --button-background: #0548ff;
 }
