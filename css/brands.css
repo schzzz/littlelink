@@ -1,42 +1,86 @@
-/*
-* LittleLink Button Styles
-* https://littlelink.io
-* Free to use under the MIT license
-* http://www.opensource.org/licenses/mit-license.php
-*/
+<!DOCTYPE html>
 
-/* Brand Button Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Only include brand-specific button styling here */
-.button,button {
-  color:var(--button-text,#000000);
-  background-color:var(--button-background,transparent);
-	border:var(--button-border,none);
-	transition:filter 0.2s ease,transform 0.2s ease;
-}
+<!--
+  To change the theme, change the class on the html tag below to one of:
+  - theme-auto: Automatically switches based on user's system preferences
+  - theme-light: Forces light theme
+  - theme-dark: Forces dark theme
+-->
 
-/* Global Button Hover Effect
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button:hover,button:hover {
-	filter:brightness(90%);
-	transform:translateY(-1px);
-}
+<html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
 
-/* Button Icons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.icon {
-	filter:var(--icon-filter,none);
-}
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-/* Brand-Specific Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* Temp Mail */
-.button-temp-mail {
-    --button-text: #ffffff;
-    --button-background: #0548ff;
-}
-/* ailinks-card */
-.button-ailinks-card {
-    --button-text: #ffffff;
-    --button-background: #f5c724;
-}
+    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+    <title>Schzzz's Link Viewer</title>
+    <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
+
+    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <meta name="description" content="Replace this with your own, this appears in search results and when sharing.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="your name, industry, and specialties">
+
+    <!-- Canonical URL - Helps prevent duplicate content issues -->
+    <meta rel="canonical" href="https://yourwebsite.com">
+
+    <!-- Author Information -->
+    <meta name="author" content="Schzzz">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brands.css">
+
+    <!-- LittleLink Extended Stylesheet (Optional) -->
+    <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
+    <!-- Learn more at https://github.com/sethcottle/littlelink-extended.
+         Remove comments if you've added LittleLink Extended dependencies -->
+
+  </head>
+
+<body>
+
+    <div class="container">
+        <div class="column">
+
+            <!--
+              By default, the Avatar is rounded. Use the following:
+              - avatar--rounded: Automatically rounds the image
+              - avatar--soft: Slightly rounds the image
+              - avatar--none: Removes any rounding
+
+              Be sure to replace the src with your own image path and update the alt text
+            -->
+            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="LittleLink">
+
+            <!-- Replace with your name or brand -->
+            <h1>
+              <div>Schzzz's Link Viewer</div>
+            </h1>
+
+            <!-- Add a short description about yourself or your brand -->
+            <p>A student.</p>
+
+            <!-- All your buttons go here -->
+            <div class="button-stack" role="navigation">
+              <!-- Temp Mail -->
+<a class="button button-temp-mail" href="https://mail.schzzz.top/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/mail.svg" alt="Temp Mail icon">Temp Mail</a>
+		<!-- ailinks-card -->
+<a class="button button-ailinks-card" href="https://ailinks-cards.web.app/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/payment_card.svg" alt="ailinks-card icon">ailinks-card</a>
+      </div>
+
+      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
+      <footer>
+          © 2025 Schzzz | Build with ♥ using <a href="https://github.com/sethcottle/littlelink" target="_blank" rel="noopener">LittleLink</a>
+      </footer>
+
+
+    </div>
+  </div>
+
+</body>
+
+</html>
