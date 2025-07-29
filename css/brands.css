@@ -69,8 +69,17 @@
               <!-- Temp Mail -->
 <a class="button button-temp-mail" href="https://mail.schzzz.top/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/mail.svg" alt="Temp Mail icon">Temp Mail</a>
 		<!-- ailinks-card -->
-<a class="button button-ailinks-card" href="https://ailinks-cards.web.app/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/payment_card.svg" alt="ailinks-card icon">ailinks-card</a>
-      </div>
+/* Temp Mail */
+.button-temp-mail {
+    --button-text: #ffffff;
+    --button-background: #0548ff;
+}
+/* ailinks-card */
+.button-ailinks-card {
+    --button-text: #ffffff;
+    --button-background: #f5c724;
+    --button-border: 1px solid #000000;
+}      </div>
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
