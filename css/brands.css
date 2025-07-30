@@ -73,6 +73,7 @@
 .button-temp-mail {
     --button-text: #ffffff;
     --button-background: #0548ff;
+    --button-border: 1px solid #000000;
 }
 /* ailinks-card */
 .button-ailinks-card {
