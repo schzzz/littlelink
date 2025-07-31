@@ -69,18 +69,42 @@
               <!-- Temp Mail -->
 <a class="button button-temp-mail" href="https://mail.schzzz.top/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/mail.svg" alt="Temp Mail icon">Temp Mail</a>
 		<!-- ailinks-card -->
-/* Temp Mail */
-.button-temp-mail {
-    --button-text: #ffffff;
-    --button-background: #0548ff;
-    --button-border: 1px solid #000000;
-}
 /* ailinks-card */
 .button-ailinks-card {
     --button-text: #ffffff;
     --button-background: #f5c724;
-    --button-border: 1px solid #000000;
-}      </div>
+}
+/* firebase */
+.button-firebase {
+    --button-text: #ffffff;
+    --button-background: #e27822;
+}
+/* github */
+.button-github {
+    --button-text: #ffffff;
+    --button-background: #616161;
+}
+/* Mail */
+.button-mail {
+    --button-text: #ffffff;
+    --button-background: #474eff;
+}
+/* Google Analytics */
+.button-google-analytics {
+    --button-text: #ffffff;
+    --button-background: #ffd500;
+}
+/* Google Search Consle */
+.button-google-search-consle {
+    --button-text: #ffffff;
+    --button-background: #192867;
+}
+/* Google Search Consle */
+.button-google-search-consle {
+    --button-text: #ffffff;
+    --button-background: #9900ff;
+}
+</div>
 
       <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
       <footer>
